@@ -8,7 +8,11 @@ class MovieServices {
 
     generateData() {
         this.movies = [
-            { id: 1, title: 'bulbasaur', genre: 'grass', releaseYear: '2000', director: 'john', producer:'' },
+            { id: 1, title: 'The Shawshank Redemption', genre: 'Drama', releaseYear: '1994', director: 'Frank Darabont', writer:'Stephen King' },
+            { id: 2, title: 'The Godfather', genre: 'Drama', releaseYear: '1972', director: 'Francis Ford Coppola', writer:'Mario Puzo' },
+            { id: 3, title: 'The Dark Knight', genre: 'Action', releaseYear: '2008', director: 'Christopher Nolan', writer:'Jonathan Nolan' },
+            { id: 4, title: 'The Godfather Part II', genre: 'Drama', releaseYear: '1974', director: 'Francis Ford Coppola', writer:'Mario Puzo' },
+            { id: 5, title: '12 Angry Men', genre: 'Drama', releaseYear: '1957', director: 'Sidney Lumet', writer:'Reginald Rose' }
         ];
     }
 
